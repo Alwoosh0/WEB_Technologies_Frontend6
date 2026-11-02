@@ -3,7 +3,7 @@
 **Name:** Almansur Maxym
 **Group:** IT-2501
 
-**GitHub Pages:** https://alwoosh0.github.io/REPOSITORY/
+**GitHub Pages:** https://alwoosh0.github.io/WEB_Technologies_Frontend6/
 
 ## Project structure
 
