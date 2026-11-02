@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 - jQuery Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="name">Almansur Maxym</h1>
+        <p class="headline">Computer Science student and competitive programmer</p>
+    </header>
+
+    <main>
+
+        <section id="profile" class="task">
+            <h2>Welcome to My Portfolio</h2>
+            <p class="intro">I am a 2nd year student at Astana IT University, group IT-2501. I like solving algorithmic problems and teaching programming.</p>
+            <p id="greeting">Hello! Thanks for visiting my page.</p>
+            <button id="changeGreeting">Change Greeting</button>
+            <button id="lightTheme">Light Theme</button>
+            <button id="darkTheme">Dark Theme</button>
+        </section>
+
+        <section id="about" class="task">
+            <h2>About Me</h2>
+            <p>I am from Aktau and now I study in Astana. I have been doing competitive programming since school and I also coach students.</p>
+            <p id="status">Currently learning jQuery!</p>
+            <ul id="funFacts">
+                <li>I am a Codeforces Master.</li>
+                <li>I teach competitive programming to school students.</li>
+                <li>My goal is to reach the ICPC World Finals.</li>
+            </ul>
+            <button id="hideBtn">Hide</button>
+            <button id="showBtn">Show</button>
+            <button id="toggleBtn">Toggle</button>
+        </section>
+
+        <section id="gallery" class="task">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="images/me.jpg" alt="Me">
+                <img src="images/olympiad.jpg" alt="Olympiad">
+                <img src="images/icpc.jpg" alt="ICPC">
+            </div>
+            <button id="fadeOutBtn">Fade Out</button>
+            <button id="fadeInBtn">Fade In</button>
+            <button id="fadeToggleBtn">Fade Toggle</button>
+        </section>
+
+        <section id="favorites" class="task">
+            <h2>My Favorites</h2>
+
+            <h3 class="panel-heading">My Favorite Music</h3>
+            <div class="panel">
+                <p>I like listening to calm music while I solve problems.</p>
+            </div>
+
+            <h3 class="panel-heading">My Favorite Movie</h3>
+            <div class="panel">
+                <p>My favorite movie is Interstellar.</p>
+            </div>
+
+            <h3 class="panel-heading">My Favorite Subject</h3>
+            <div class="panel">
+                <p>My favorite subject is Algorithms and Data Structures.</p>
+            </div>
+
+            <button id="openAll">Open All</button>
+            <button id="closeAll">Close All</button>
+        </section>
+
+        <section id="skills" class="task">
+            <h2>My Skills</h2>
+            <ul id="skillList">
+                <li>C++</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML &amp; CSS</li>
+            </ul>
+            <input type="text" id="skillInput" placeholder="New skill">
+            <button id="addSkill">Add Skill</button>
+            <button id="prependSkill">Prepend Skill</button>
+            <button id="removeSkill">Remove Skill</button>
+        </section>
+
+        <section id="links" class="task">
+            <h2>My Links</h2>
+            <p><a id="socialLink" href="https://github.com/alwoosh0" target="_blank">My GitHub</a></p>
+            <button id="changeLink">Change Link</button>
+        </section>
+
+        <section id="contact" class="task">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="nameInput">Name</label>
+                <input type="text" id="nameInput">
+
+                <label for="emailInput">Email</label>
+                <input type="email" id="emailInput">
+            </form>
+            <p>Name: <span id="nameOutput"></span></p>
+            <p>Email: <span id="emailOutput"></span></p>
+        </section>
+
+        <section id="skillBars" class="task">
+            <h2>Skill Levels</h2>
+
+            <p>C++</p>
+            <div class="skill-bar">
+                <div class="skill-fill" id="cppBar"></div>
+            </div>
+
+            <p>Python</p>
+            <div class="skill-bar">
+                <div class="skill-fill" id="pythonBar"></div>
+            </div>
+
+            <p>Java</p>
+            <div class="skill-bar">
+                <div class="skill-fill" id="javaBar"></div>
+            </div>
+
+            <p>HTML &amp; CSS</p>
+            <div class="skill-bar">
+                <div class="skill-fill" id="htmlBar"></div>
+            </div>
+
+            <button id="animateSkills">Animate My Skills</button>
+        </section>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
